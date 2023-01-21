@@ -95,6 +95,10 @@ else{
   console.log('Пароль не правельный....');
 }
 
+
+console.log("Переменные")
+
+
 let message = 'hello';
 console.log(message);
 
@@ -107,16 +111,35 @@ let message2 = "!"
 console.log(message2)
 
 let user = 'aydin ';
-let age = 15;
+let years = 15;
 let message3 = ' hello'
 message3 = ' years '; // Изменил значение message3
-message3 = age; // Скопировал значение age в message3
+message3 = years; // Скопировал значение age в message3
 
-console.log(user + age + message3)
+console.log(user + years + message3)
 
 const color_blue = '#00F ' + '-Синий'
 const color_white = '#fff ' + '-Белый'
 //если значение не изменится то можно использовать const
 let color = color_white
 console.log(color)
+
+//exercise
+
+//Working with variables
+let admin
+let name = "John"
+
+admin = name;
+console.log(admin)
+console.log(name)
+
+//Give the correct name
+
+let planets = "Earth";
+let userName = "John";
+
+
+
+
 
